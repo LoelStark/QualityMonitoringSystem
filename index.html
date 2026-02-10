@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainSteady Tech | Quality Monitoring System</title>
+    <meta name="description" content="BrainSteady Tech's Quality Monitoring System - Advanced AI-powered machinery maintenance and analysis. optimize manufacturing efficiency.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="glass-nav">
+        <div class="logo">BrainSteady Tech</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="QUALITY MONITORING SYSTEM">QUALITY MONITORING SYSTEM</h1>
+            <p class="subtitle">Advanced AI for Manufacturing Excellence</p>
+            <div class="cta-buttons">
+                <a href="#dashboard" class="btn primary-btn">Launch System</a>
+                <a href="#about" class="btn secondary-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-bg-overlay"></div>
+    </header>
+
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">System Capabilities</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">📊</div>
+                    <h3>Smart Data Insertion</h3>
+                    <p>Seamlessly add and update machinery records with intelligent validation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🔍</div>
+                    <h3>Quality Monitoring</h3>
+                    <p>Real-time analysis and monitoring of manufacturing equipment health.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">⚠️</div>
+                    <h3>Risk Analysis</h3>
+                    <p>AI-driven predictive maintenance to prevent costly downtime.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📈</div>
+                    <h3>Data Visualization</h3>
+                    <p> comprehensive views of stored data for informed decision making.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <div class="about-text glass-panel">
+                <h2 class="section-title">About The System</h2>
+                <p>
+                    The Quality Monitoring System was created by <strong>BrainSteady Tech</strong> to revolutionize
+                    how the manufacturing industry monitors and maintains machinery.
+                </p>
+                <p>
+                    By utilizing top AI APIs like <strong>Google Gemini</strong>, <strong>Llama</strong>, and <strong>GPT-4</strong>,
+                    our system not only helps maintain equipment but significantly reduces the need for frequent manual inspections.
+                </p>
+                <p>
+                    This proactive approach saves millions in operational costs by preventing unnecessary updates to newly
+                    installed systems and ensuring optimal performance.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="dashboard" class="dashboard-section">
+        <div class="container">
+            <h2 class="section-title">Live Dashboard Interface</h2>
+            <div class="dashboard-mockup glass-panel">
+                <div class="dashboard-header">
+                    <span>System Status: <span class="status-indicator">Active</span></span>
+                    <span>AI Model: Gemini Pro</span>
+                </div>
+                
+                <div class="dashboard-content">
+                    <div class="form-panel">
+                        <h3>Insert New Machinery Data</h3>
+                        <form id="machineryForm">
+                            <div class="form-group">
+                                <label for="machineName">Machinery Name</label>
+                                <input type="text" id="machineName" placeholder="e.g. Servo-Press X500" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="machineBrand">Brand</label>
+                                <input type="text" id="machineBrand" placeholder="e.g. Siemens" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="issueYear">Year Issued</label>
+                                <input type="number" id="issueYear" placeholder="2024" required min="1900" max="2099">
+                            </div>
+                            <button type="submit" class="btn primary-btn full-width">Add Data to System</button>
+                        </form>
+                    </div>
+
+                    <div class="output-panel" id="outputPanel">
+                        <h3>System Log</h3>
+                        <div class="log-window" id="logWindow">
+                            <p class="log-entry system">> System initialized...</p>
+                            <p class="log-entry system">> Connecting to AI module...</p>
+                            <p class="log-entry success">> Connection established.</p>
+                            <p class="log-entry info">> Waiting for user input...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 BrainSteady Tech. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
