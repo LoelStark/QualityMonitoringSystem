@@ -4,11 +4,11 @@ An AI-powered Quality Monitoring System designed to support modern manufacturing
 
 This project serves as a frontend interface and conceptual dashboard for an intelligent quality monitoring platform aimed at improving operational efficiency and reducing unplanned downtime.
 
-🚀 Project Overview
+# 🚀 Project Overview
 
 The Quality Monitoring System provides a web-based interface that simulates how manufacturers can:
 
-Insert and manage machinery data
+## Insert and manage machinery data
 
 Monitor equipment health and quality metrics
 
