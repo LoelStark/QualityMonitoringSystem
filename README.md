@@ -8,39 +8,39 @@ This project serves as a frontend interface and conceptual dashboard for an inte
 
 The Quality Monitoring System provides a web-based interface that simulates how manufacturers can:
 
-## Insert and manage machinery data
+- Insert and manage machinery data
 
-Monitor equipment health and quality metrics
+- Monitor equipment health and quality metrics
 
-Perform AI-driven risk and failure analysis
+- Perform AI-driven risk and failure analysis
 
-Visualize stored data for informed decision-making
+- Visualize stored data for informed decision-making
 
 The system is designed with scalability in mind and reflects real-world manufacturing challenges, particularly within developing and industrializing markets.
 
-✨ Features
+# ✨ Features
 
-Smart Data Insertion
+- Smart Data Insertion
 Add machinery records with structured validation.
 
-Quality Monitoring Dashboard
+- Quality Monitoring Dashboard
 Real-time system status indicators and logs.
 
-Risk & Predictive Analysis
+- Risk & Predictive Analysis
 Designed to integrate AI models for early fault detection and maintenance forecasting.
 
-Modern UI
+- Modern UI
 Futuristic, glassmorphism-inspired interface with responsive design.
 
-🧠 AI Integration (Planned / Conceptual)
+# 🧠 AI Integration (Planned / Conceptual)
 
 The system is designed to integrate with leading AI models, including:
 
-Google Gemini
+- Google Gemini
 
-Meta Llama
+- Meta Llama
 
-OpenAI GPT-4
+- OpenAI GPT-4
 
 These models can be used for:
 
@@ -52,7 +52,7 @@ Risk scoring
 
 Natural-language explanations of machine health
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 HTML5
 
@@ -64,20 +64,13 @@ Google Fonts (Orbitron, Roboto)
 
 Note: This repository currently represents the frontend interface and system concept. Backend services and AI pipelines are intended future extensions.
 
-📂 Project Structure
-/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-🌐 Live Demo (GitHub Pages)
+# 🌐 Live Demo (GitHub Pages)
 
 If hosted using GitHub Pages, the site will be available at:
 
 https://<your-username>.github.io/<repository-name>/
 
-📈 Future Enhancements
+# 📈 Future Enhancements
 
 Backend API integration
 
@@ -89,7 +82,7 @@ Model performance monitoring
 
 Operator and shift-based analytics
 
-🏭 Target Industry
+# 🏭 Target Industry
 
 Manufacturing
 
@@ -99,6 +92,6 @@ Predictive maintenance systems
 
 Quality assurance platforms
 
-© License
+# © License
 
-© 2024 BrainSteady Tech. All rights reserved.
+# © 2024 BrainSteady Tech. All rights reserved.
