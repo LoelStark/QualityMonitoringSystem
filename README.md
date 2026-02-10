@@ -1,4 +1,4 @@
-#BrainSteady Tech – Quality Monitoring System
+# BrainSteady Tech – Quality Monitoring System
 
 An AI-powered Quality Monitoring System designed to support modern manufacturing environments, with a focus on predictive maintenance, risk analysis, and real-time machinery insights.
 
